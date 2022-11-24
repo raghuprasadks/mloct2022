@@ -98,9 +98,93 @@ print ('result of (n2>n1) or (n3>n2) ',result)
 result = not((n2>n1) or (n3>n2))
 print ('result of not((n2>n1) or (n3>n2)) ',result)
 
+Bitwise operators
 
 3. Loops n conditional statements
+while,for
+
+'''
+print 2's table using while loop
+'''
+start =2
+end = 20
+while (start <=end ):
+  print(start)
+  start = start +2
+'''
+20 to 2
+20..18..16
+'''
+
+'''
+for loop
+'''
+for i in range(10):
+  print(i)
+
+print("2's table in reverse order")
+for i in range(2,21,2):
+  print(i)
+print('program completed')
+
+conditional statement
+
+'''
+grade based on marks
+
+marks >90 <=100 - A+
+marks >80 <=90 - A
+marks >70 <=80 - B+
+'''
+marks = 98
+if (marks >90 and marks <=100):
+  print('A+')
+elif (marks >80 and marks <=90):
+  print('A')
+elif (marks >70 and marks <=80):
+  print('B+')
+else:
+  print('less than B+')
+
 4. Functions
+def greet():
+	print('Welcome to ML')
+
+def add(n1,n2):
+  result = n1+n2
+  print(n1,' + ',n2,' = ',result)
+add(100,150)
+add(300,200)
+
+'''
+write a function to calculate simple interest
+'''
+def simpleInterest(p,r,t):
+  si=(p*r*t)/100
+  return si
+
+si =simpleInterest(1000,4,2)
+print("simple interest is ",si)
+
+def simpleInterest(p,r,t):
+  si=(p*r*t)/100
+  print('si ',si)
+simpleInterest(1000,4,1)
+simpleInterest(2000,4,2)
+
+'''
+Write a function to calculate simple interest based on 
+following condition
+
+days <= 365, rate = 4%
+days >365 <=500 rate = 5 %
+days >500 rate = 6%
+
+'''
+
+
+
+
 5. Object oriented programming
 
 Advanced python
