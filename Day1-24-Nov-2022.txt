@@ -181,11 +181,86 @@ days >365 <=500 rate = 5 %
 days >500 rate = 6%
 
 '''
-
-
-
+def simpleInterest(p,t):
+  r = 0
+  if (t<=365):
+    r = 4
+  elif (t>365 and t<500):
+    r = 5
+  else:
+    r = 6
+  si = (p*r*t)/(365*100)
+  return si
+simpleInterest(10000,365)
+simpleInterest(10000,400)
+simpleInterest(10000,600)
+Operator precedence - PEMDAS
+P - parenthesis
+E - Exponentiation
+MDAS
 
 5. Object oriented programming
+
+class and object
+class - template
+object - instance
+
+property and functionality
+
+account
+property/attribute
+number
+name
+address
+contanct
+functionality
+
+deposit
+withdraw
+tranfer
+checkbal
+
+class Account():
+  '''
+  attributes
+  '''
+  actnum=0
+  name=''
+  bal=0
+  location = ''
+  '''
+  methods
+  '''
+  def openAccount(self,name,location):
+    self.name = name
+    self.location = location
+    self.bal = 0
+    self.actnum = 100
+  
+  def deposit(self,actnum,amttodep):
+    self.bal = self.bal +amttodep
+    return self.bal
+
+  def withdraw(self,actnum,amttowithdraw):
+    self.bal = self.bal -amttowithdraw
+    return self.bal
+
+  def checkbal (self,actnum):
+    return self.bal
+
+act1 = Account()
+act1.openAccount('raghu prasad','bengaluru')
+print ("your account number is ",act1.actnum)
+actnum = act1.actnum
+bal = act1.deposit(actnum,10000)
+print('Balance after deposit of 10 k ',bal)
+bal = act1.deposit(actnum,20000)
+print('Balance after deposit of 20 k ',bal)
+bal = act1.withdraw(actnum,5000)
+print('Balance after withdraw of 5 k ',bal)
+bal = act1.checkbal(actnum)
+print('check balance ',bal)
+  
 
 Advanced python
 Pandas - https://www.listendata.com/2017/12/python-pandas-tutorial.html
