@@ -1,0 +1,107 @@
+Languages - Python or R
+Python is a generic programming language
+Easy to learn
+Open source
+Community driven
+
+Python 
+Building blocks
+1. Data types 
+Basic data types -Numeric,text, boolean
+Advanced data types - list,tuple,dictionary,set
+customer -
+name,age,sex,address,pincode,mobile,email - KYC
+
+download python.
+
+https://www.python.org/downloads/
+.py
+python program
+
+HelloWorld.py
+
+Integrated Environment
+1. Anaconda - 
+Spyder
+Jupyter notebook
+
+Type google colab
+google colab
+https://colab.research.google.com/
+1-DataTypes.ipynb
+print("Hello World")
+https://www.onlinegdb.com/
+# Basic Data type str,int,float,bool
+name="ravi"
+age = 45
+city= 'Bengaluru'
+zipcode = 560001
+anyCreditCard=True
+
+print(name)
+print('your name is ',name)
+print('data type of name variable',type(name))
+
+name=123
+print('data type of name variable ',type(name))
+
+balance=1000.99
+print ('data type of balance ',type(balance))
+print ('data type of anycredit card',type(anyCreditCard))
+
+'''
+list - []
+tuple - ()
+dictionary - {key:value}
+set - {n1,n2,n3}
+'''
+
+#list - dynamic array, it allows duplicate values
+customerlist = ['ravi','ganesh','gowri','abdul','alex']
+print('customer list ',customerlist)
+print('data type of customerlist ',type(customerlist))
+
+#tuple - cannot modify once it is defined
+days=('Mon','Tue','Wed')
+print('data type of days',type(days))
+
+#dictionary - {key:value} key should be unique
+employee={101:'ramesh',102:'ravi',103:'ramya'}
+print('employee ',employee)
+print('employee data type ',type(employee))
+#set - {n1,n2,n3} - it does not allow duplicate values
+even={2,4,6,8,2}
+print('even numbers',even)
+print('type of even numbers',type(even))
+
+2. Operators
+Arithmetic operator - +,-,*,/,//,%
+5/2 - 2.5
+5//2 = 2
+5%2 = 1
+Comparision operator/Relational operator - >,<,>=,<=,==,!=
+n1=100
+n2=50
+n1>n2
+Logical operators
+and or not
+#logical operators
+
+n1 = 100
+n2=75
+n3 = 150
+result = (n1>n2) and (n3>n2)
+print ('result of (n1>n2) and (n3>n2) ',result)
+result = (n2>n1) or (n3>n2)
+print ('result of (n2>n1) or (n3>n2) ',result)
+result = not((n2>n1) or (n3>n2))
+print ('result of not((n2>n1) or (n3>n2)) ',result)
+
+
+3. Loops n conditional statements
+4. Functions
+5. Object oriented programming
+
+Advanced python
+Pandas - https://www.listendata.com/2017/12/python-pandas-tutorial.html
+
