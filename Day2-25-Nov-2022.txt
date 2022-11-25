@@ -1,0 +1,77 @@
+Agenda:
+
+1. Recap  - Python Day 1
+2. Machine Learning Types
+3. Machine Learning Algorithms
+
+Assignment:
+
+1. Following advertisement is put in a shopping mall.
+
+Welcome to year end sales....
+purchase upto 10000 and get discount of 10 % purchase_amt<=10000
+purchase upto 20000 and get discount of 20 % purchase_amt>10000 <=20000
+purchase above 20000 and get discount of 30 %. purchase_amt>20000
+
+Write a python program to find the discount and net amount
+to pay.. 
+Sample calculation
+
+purchase_amount = 5000
+discount = 5000*10/100=500
+net_amount = purchase_amout - discount
+	   = 5000-500 = 4500
+
+Solution to assignment:
+
+option 1 - without using function
+purchase_amount = 5000
+discountrate = 0
+discount =0
+netamount = 0
+if (purchase_amount <=10000):
+  discountrate=.1
+elif (purchase_amount >10000 and purchase_amount<=20000):
+  discountrate=.2
+else:
+  discountrate=.3
+discount = purchase_amount * discountrate
+netamount = purchase_amount - discount
+print ("You have to pay ",netamount)
+print ("Your saving on this bill is  ",discount)
+
+
+option 2 - with using function
+def shopping(purchase_amount):
+  discountrate = 0
+  discount =0
+  netamount = 0
+  if (purchase_amount <=10000):
+    discountrate=.1
+  elif (purchase_amount >10000 and purchase_amount<=20000):
+    discountrate=.2
+  else:
+    discountrate=.3
+  discount = purchase_amount * discountrate
+  netamount = purchase_amount - discount
+  print ("You have to pay ",netamount)
+  print ("Your saving on this bill is  ",discount)
+
+
+calling a function
+shopping(10000)
+
+option 3 - with user input
+
+name = input ("enter your name")
+print ("your name is ",name)
+
+mobile = input ("enter your mobile number")
+print ("your mobile number is ",mobile)
+print ("data type of mobile ",type(mobile))
+
+purchase_amt = int(input("enter purchase amount"))
+shopping(purchase_amt)
+
+
+

@@ -99,7 +99,7 @@ result = not((n2>n1) or (n3>n2))
 print ('result of not((n2>n1) or (n3>n2)) ',result)
 
 Bitwise operators
-
+&,|
 3. Loops n conditional statements
 while,for
 
@@ -260,6 +260,20 @@ bal = act1.withdraw(actnum,5000)
 print('Balance after withdraw of 5 k ',bal)
 bal = act1.checkbal(actnum)
 print('check balance ',bal)
+
+act2 = Account()
+act2.openAccount('gagan','mysore')
+print ("your account number is ",act2.actnum)
+actnum = act2.actnum
+bal = act2.deposit(actnum,30000)
+print('Balance after deposit of 30 k ',bal)
+bal = act2.deposit(actnum,20000)
+print('Balance after deposit of 20 k ',bal)
+bal = act2.withdraw(actnum,10000)
+print('Balance after withdraw of 10 k ',bal)
+bal = act2.checkbal(actnum)
+print('check balance ',bal)
+
   
 
 Advanced python
