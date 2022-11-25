@@ -38,11 +38,6 @@ def add (n1,n2):
 class and object
 class Account():
 	def (self,name,mobile)
-2. Machine Learning Types
-Supervised,Un-Supervised,re-inforcement machine learning
-Regression
-
-3. Machine Learning Algorithms
 
 Assignment:
 
@@ -116,3 +111,12 @@ shopping(purchase_amt)
 
 
 
+2. Machine Learning Types
+Supervised,Un-Supervised,re-inforcement machine learning
+Regression
+
+3. Machine Learning Algorithms
+Linear Regression - single variate
+multi variate
+
+kaggle.com
