@@ -1,7 +1,47 @@
 Agenda:
 
 1. Recap  - Python Day 1
+
+Datatypes - 
+basic data types int,float,str,bool
+advanced data types - list,tuple,dictionary,set
+operators  - 
+arithmetic - 
+comparision - >,<,>=,==,!=
+logical - and or not
+bitwise  - & |
+
+loops - while 
+for loop  - 
+range(10)
+range(2,10)
+range(10,101,10)
+
+for i in range(10):
+
+if
+
+if 
+else
+
+if
+elif
+elif
+else
+
+functions
+
+def add(n1,n2)
+
+def add (n1,n2):
+	return n1+n2
+class and object
+class Account():
+	def (self,name,mobile)
 2. Machine Learning Types
+Supervised,Un-Supervised,re-inforcement machine learning
+Regression
+
 3. Machine Learning Algorithms
 
 Assignment:
@@ -23,6 +63,7 @@ net_amount = purchase_amout - discount
 	   = 5000-500 = 4500
 
 Solution to assignment:
+https://github.com/raghuprasadks/mloct2022
 
 option 1 - without using function
 purchase_amount = 5000
